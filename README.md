@@ -1,6 +1,6 @@
 # twitch_project
 
-This is a currently a public repository. I might change it to private this week. 
+This is a currently a public repository. I might change it to private this week. I could add your accounts as collaborators, or think of other ways to share these (maybe a link to the notebook on my drive/ pdf). 
 
 By Oct 8th: 
 - Link to the [proposal](https://docs.google.com/document/d/1NeULev_u3fpf7Zrn_sOdR7k33qzWW9lFx29LEjeLb14/edit?usp=sharing)
