@@ -1,6 +1,6 @@
 # twitch_project
 
-This is a private repository. 
+This is a currently a public repository. I might change it to private this week. 
 
 By Oct 8th: 
 - Sample dataset construction and initial insights: Go to the notebook. I'm updating it regularly. 
