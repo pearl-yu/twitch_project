@@ -14,7 +14,7 @@ By Oct 10th:
     - Go to [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) to select a sample, download the csv.
     - Use the url there to retrieve broadcast id and info by calling the get_user endpoint.
     - Use the retrieved video id to get video info by calling the get_videos endpoint.
-    - Use the retreived video url to get chat files using the chatdownloader github project.  **remember to download it locally too.**
+    - Use the retreived video url to get chat files using the [chatdownloader](https://github.com/xenova/chat-downloader/tree/master/docs) github project.  **remember to download it locally too.**
     - Examine the returned json chat files, see what variales to construct. 
 
 Action items: 
