@@ -21,4 +21,5 @@ Action items:
 - clean up the code. Loop it. (no need for separate scripts actually.)
 - What variables to construct from chats? How to quantify the dependent variables?
 - Literature [notion page](https://www.notion.so/pearlyu/Working-on-a-research-question-f4e889d8cad645428feae3a91dd3e873)
+- Amazon - twitch financial statement? I think this could be combined with the twitch tracker overall summary to generate some insights.
 - Take a look at json and generator stuff.https://www.programiz.com/python-programming/json
