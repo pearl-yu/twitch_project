@@ -5,7 +5,7 @@ This is a currently a public repository. I might change it to private this week.
 - Literature [notion page](https://www.notion.so/pearlyu/Working-on-a-research-question-f4e889d8cad645428feae3a91dd3e873)
 
 By Oct 8th: 
-- Sample dataset construction and initial insights: Uploaded 10092022 biteviij.
+- Sample dataset construction and initial insights: Uploaded 10092022 notebook
 - Archived dataset: [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) This is a really impressive data collection. I'm using this to dig in, looking for patterns. As this site pulls the twitch API every 15 minutes since 2015, I'm thinking emailing the developer to collaborate, as he indicated no scraping please. But this site doesn't scrape viewer engagement (chats). 
 
 By Oct 10th:
