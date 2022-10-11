@@ -20,5 +20,5 @@ By Oct 10th:
 Action items: 
 - clean up the code. Loop it. (no need for separate scripts actually.)
 - What variables to construct from chats? How to quantify the dependent variables?
-- Literature
+- Literature [notion page](https://www.notion.so/pearlyu/Working-on-a-research-question-f4e889d8cad645428feae3a91dd3e873)
 - Take a look at json and generator stuff.https://www.programiz.com/python-programming/json
