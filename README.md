@@ -17,6 +17,9 @@ By Oct 10th:
     - Use the retreived video url to get chat files using the [chatdownloader](https://github.com/xenova/chat-downloader/tree/master/docs) github project.  **remember to download it locally too.**
     - Examine the returned json chat files, **see what variales to construct.** 
 
+By Oct 11th:
+- Uploaded 10122020 notebook. 
+
 Action items: 
 - Need to figure out when to rule out non-English vids. 
 - Looped the code. But not very efficient. (no need for separate scripts actually.)
