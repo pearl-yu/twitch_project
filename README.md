@@ -20,7 +20,27 @@ By Oct 10th:
 By Oct 11th:
 - Uploaded 10122020 notebook. 
 
-Action items:  
+Oct 12th meeting: 
+1.	Made the research questions more clear: Take perspective of the platform, that cares about incentivizing the streamers to stay and grow on the platform. They’d want more ‘full time’ streamers as the content is delivered live. 
+- Hence we model the streamers’ decisions.
+2.	Dependent variables:
+- Staying, or leaving the platform. 
+- Streaming time – part time/ full time.
+- Content choices: number of game categories. 
+3.	Independent variables:
+- Aside from e.g. views, follows, number of chat messages, first we want to dig in the chat files:
+- Meta data includes the status of user who comments (if subscriber, VIP, prime subscriber, if streamer..)
+- From the text,  LDA, sentiments, emotions are easy to extract. But it should start with what could be the interesting story. We talked about a few ideas. 
+ 
+Plan of this week:
+- We talked about the operationalization of the dependent variables. Construct those, and plot the distribution to see if there’s obvious (full-time, part-time) pattern. 
+- With independent variables, we talked about a few interesting stories and ideas. Think about it again, and try to run regressions to test on those. 
+- Continue on literature search relevant to content creators/streamers/digital entrepreneurship. 
+
+
+***
+
+Action items from before the meeting:  
 - Sample selection? How to select the sample? (Currently it's stratified picking by fastest growth in last 30 days. Restricted to English steams. Can we use shorter streams only? Should it be stratified by dependent variables?)
 - Dependent variables: 
   - Game category: I think we can download from https://sullygnome.com/channel/kaicenat/365/streams, and integrate it in once we know what sample. Cuz this would be manually done. 
