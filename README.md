@@ -20,12 +20,13 @@ By Oct 10th:
 By Oct 11th:
 - Uploaded 10122020 notebook. 
 
-Action items: 
-- Need to figure out when to rule out non-English vids. 
-- Looped the code. But not very efficient. (no need for separate scripts actually.)
+Action items:  
+- Sample selection? How to select the sample? (Currently it's stratified picking by fastest growth in last 30 days. Restricted to English steams. Can we use shorter streams only? Should it be stratified by dependent variables?)
+- Dependent variables: 
+  - Game category: I think we can download from https://sullygnome.com/channel/kaicenat/365/streams, and integrate it in once we know what sample. Cuz this would be manually done. 
+  - Full time or par time: Need to think about how to operationalize this. 
 - What variables to construct from chats? How to quantify the dependent variables?
-  - from the messages themselves: the count of messages. **What to extract from there?**
-  - from the rich message: emotes, (cheermotes?)
-  - from the API metadata: status of the viewer (subscriber, VIP, badges)
+  - from the messages themselves: the count of messages. Trying LDA, then use topic dummies as features. Or clustering (Maybe this is good when we have some theoretical concepts. Need to watch more streams!)
+  - from the rich message: emotes, badges. (cheermotes?) Cuz I think this kind of represent the weight of the message. 
 - Amazon - twitch financial statement? I think this could be combined with the twitch tracker overall summary to generate some insights.
 - Take a look at json and generator stuff.https://www.programiz.com/python-programming/json
