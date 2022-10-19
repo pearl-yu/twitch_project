@@ -38,6 +38,17 @@ Plan of this week:
 - Continue on literature search relevant to content creators/streamers/digital entrepreneurship. 
 
 
+By Oct 19th:
+- Plotted average weekly streaming time of 90 randomly selected streamers. Looks binormal.
+- Fit topic models on 90 videos, checked on correlation including lag 1. 
+Things to do: 
+- Check on some hypothesis: 
+  - Balance of sentiments.
+  - Look at the comments of people who paid.
+- Sample selection
+- Panel regression
+  - Dependent variable (video level or weekly level?) ~ a bunch of controls + topic_distribution of lagged one.
+
 ***
 
 Action items from before the meeting:  
