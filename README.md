@@ -48,6 +48,7 @@ Things to do:
 - Sample selection
 - Panel regression
   - Dependent variable (video level or weekly level?) ~ a bunch of controls + topic_distribution of lagged one.
+- transcription of videos
 
 ***
 
