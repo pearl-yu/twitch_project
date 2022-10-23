@@ -33,9 +33,9 @@ This is a currently a public repository. I might change it to private this week.
 - About dependent variable: Plotted average weekly streaming time of 90 randomly selected streamers. Looks binormal.Using 30-hour to classify part-time and full-time sounds like the initial plan. 
 - About features from chat files: Fit topic models on 90 videos, checked on correlation including lag 1 to guide theory building. 
 
-Oct 20th meeting:
-  Today we thought about **what's the interesting question** again: The idea is that streamers can experience burnout from managing interactions, unique to content creators in live streaming. Too many interactions/engagements with viewers might be too heavy of a workload. This might in a long term impact the streamers' streaming decisions. 
-  We think this question has a larger scope than the previous direction (which is to see if something in the chat impacts the streamers' decisions). 
+<ins>Oct 20th meeting:<ins>
+- Today we thought about **what's the interesting question** again: The idea is that streamers can experience burnout from managing interactions, unique to content creators in live streaming. Too many interactions/engagements with viewers might be too heavy of a workload. This might in a long term impact the streamers' streaming decisions. 
+  - We think this question has a larger scope than the previous direction (which is to see if something in the chat impacts the streamers' decisions). 
 
 
 <ins>Action items: <ins>  
