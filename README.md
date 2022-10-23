@@ -4,20 +4,20 @@ This is a currently a public repository. I might change it to private this week.
 - Link to the initial [proposal](https://docs.google.com/document/d/1NeULev_u3fpf7Zrn_sOdR7k33qzWW9lFx29LEjeLb14/edit?usp=sharing)
 - Literature [notion page](https://www.notion.so/pearlyu/Working-on-a-research-question-f4e889d8cad645428feae3a91dd3e873)
 
-By Oct 8th: 
+<ins>By Oct 8th:<ins> 
 - Sample dataset construction and initial insights: Uploaded 10092022 notebook
 - Archived dataset: [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) This is a really impressive data collection. I'm using this to dig in, looking for patterns. As this site pulls the twitch API every 15 minutes since 2015, I'm thinking emailing the developer to collaborate, as he indicated no scraping please. But this site doesn't scrape viewer engagement (chats). 
 
-By Oct 10th:
+<ins>By Oct 10th:<ins>
 - Uploaded 10102020 notebook:
   - Workflow:
     - Go to [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) to select a sample, download the csv.  **Need to talk about sample selection. Currently it's stratified picking by fastest growth in last 30 days.**
     - Use the url there to retrieve broadcast id and info by calling the get_user endpoint.
     - Use the retrieved video id to get video info by calling the get_videos endpoint.
     - Use the retreived video url to get chat files using the [chatdownloader](https://github.com/xenova/chat-downloader/tree/master/docs) github project.  **remember to download it locally too.**
-    - Examine the returned json chat files, **see what variables to construct.** 
+    - Examine the returned json chat files, think about what variables to construct. 
 
-Oct 12th meeting: 
+<ins>Oct 12th meeting: <ins>
 - Made the **research questions** more clear: Take perspective of the platform, that cares about incentivizing the streamers to stay and grow on the platform. They’d want more ‘full time’ streamers as the content is delivered live. 
   - Hence we model the streamers’ decisions.
 - Dependent variables:
@@ -29,11 +29,11 @@ Oct 12th meeting:
   - Meta data includes the status of user who comments (if subscriber, VIP, prime subscriber, if streamer..)
   - From the text,  LDA, sentiments, emotions are easy to extract. But it should start with what could be the interesting story. We talked about a few ideas. 
  
-By Oct 19th:  
+<ins>By Oct 19th: <ins> 
 - About dependent variable: Plotted average weekly streaming time of 90 randomly selected streamers. Looks binormal.Using 30-hour to classify part-time and full-time sounds like the initial plan. 
 - About features from chat files: Fit topic models on 90 videos, checked on correlation including lag 1 to guide theory building. 
 
-Oct 20th meeting:  
+<ins>Oct 20th meeting: <ins> 
 Today we thought about **what's the interesting question** again: The idea is that streamers can experience burnout from managing interactions, unique to content creators in live streaming. Too many interactions/engagements with viewers might be too heavy of a workload. This might in a long term impact the streamers' streaming decisions. 
 We think this question has a larger scope than the previous direction (which is to see if something in the chat impacts the streamers' decisions). 
 
@@ -46,7 +46,7 @@ We think this question has a larger scope than the previous direction (which is 
  
 ***
 
-Action items from before the meeting:  
+<ins>Other random things: <ins>
 - Sample selection? How to select the sample? (Currently it's stratified picking by fastest growth in last 30 days. Restricted to English steams. Can we use shorter streams only? Should it be stratified by dependent variables?)
 - Dependent variables: 
   - Game category: I think we can download from https://sullygnome.com/channel/kaicenat/365/streams, and integrate it in once we know what sample. Cuz this would be manually done. 
