@@ -18,27 +18,27 @@ By Oct 10th:
     - Examine the returned json chat files, **see what variables to construct.** 
 
 Oct 12th meeting: 
-1.	Made the research questions more clear: Take perspective of the platform, that cares about incentivizing the streamers to stay and grow on the platform. They’d want more ‘full time’ streamers as the content is delivered live. 
-- Hence we model the streamers’ decisions.
-2.	Dependent variables:
-- Staying, or leaving the platform. 
-- Streaming time – part time/ full time.
-- Content choices: number of game categories. 
-3.	Independent variables:
-- Aside from e.g. views, follows, number of chat messages, first we want to dig in the chat files:
-- Meta data includes the status of user who comments (if subscriber, VIP, prime subscriber, if streamer..)
-- From the text,  LDA, sentiments, emotions are easy to extract. But it should start with what could be the interesting story. We talked about a few ideas. 
+- Made the **research questions** more clear: Take perspective of the platform, that cares about incentivizing the streamers to stay and grow on the platform. They’d want more ‘full time’ streamers as the content is delivered live. 
+  - Hence we model the streamers’ decisions.
+- Dependent variables:
+  - Staying, or leaving the platform. 
+  - Streaming time – part time/ full time.
+  - Content choices: number of game categories. 
+- Independent variables:
+  - Aside from e.g. views, follows, number of chat messages, first we want to dig in the chat files:
+  - Meta data includes the status of user who comments (if subscriber, VIP, prime subscriber, if streamer..)
+  - From the text,  LDA, sentiments, emotions are easy to extract. But it should start with what could be the interesting story. We talked about a few ideas. 
  
-By Oct 19th:
+By Oct 19th:  
 - About dependent variable: Plotted average weekly streaming time of 90 randomly selected streamers. Looks binormal.Using 30-hour to classify part-time and full-time sounds like the initial plan. 
 - About features from chat files: Fit topic models on 90 videos, checked on correlation including lag 1 to guide theory building. 
 
-Oct 20th meeting:
-Today we thought about what's the interesting question again: The idea is that streamers can experience burnout from managing interactions, unique to content creators in live streaming. Too many interactions/engagements with viewers might be too heavy of a workload. This might in a long term impact the streamers' streaming decisions. 
+Oct 20th meeting:  
+Today we thought about **what's the interesting question** again: The idea is that streamers can experience burnout from managing interactions, unique to content creators in live streaming. Too many interactions/engagements with viewers might be too heavy of a workload. This might in a long term impact the streamers' streaming decisions. 
 We think this question has a larger scope than the previous direction (which is to see if something in the chat impacts the streamers' decisions). 
 
 
-Action items: 
+<ins>Action items: <ins>  
 - Download video files and chats. 
 - Basic chat features: number of messages, number of messages per minute, average message length, proportion of meaninful messages, message sentiments. (Runshan: I remember there are some techniques that allow you to separate texts are more emotional from those more factual (like objective comments, feedback, constructive suggestions), it would be useful to check this as well.)
 - Measure engagement level: The number of times a streamer responds to a chat? The number of times that a streamer asks questions to the viewers? Check on the literature to get more ideas. 
