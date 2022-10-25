@@ -50,7 +50,7 @@ This is a currently a public repository. I might change it to private this week.
 - Measure engagement level: The number of times a streamer responds to a chat? The number of times that a streamer asks questions to the viewers? Check on the literature to get more ideas. 
   - Simple measure: The number of times a streamer asks the viewers a question? 
   - Simple measure: The number of times a streamer responds to a chat message?
-  - 
+  - how deep the loop of interaction is?
 - Explore the relationship between chat features and engagement level.
 
 
