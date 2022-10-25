@@ -65,3 +65,4 @@ This is a currently a public repository. I might change it to private this week.
 - Amazon - twitch financial statement? I think this could be combined with the twitch tracker overall summary to generate some insights.
 - Take a look at json and generator stuff.https://www.programiz.com/python-programming/json
 - Explore the relationship between chat features and engagement level.
+- what's this? http://chatty.github.io/
