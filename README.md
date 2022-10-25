@@ -46,7 +46,7 @@ This is a currently a public repository. I might change it to private this week.
     - What's meaningful? We want to identify structures, test if dumb things only add on workload and burnout streamers, so some ratio. This is where theory comes from. Search for papers!
     - Simplest: count the number of messages that have certain keywords. Won't be accurate, but easy. Or, filter out things like yay, hi?
     - Sounds like classification task (more emotional, more factural, constructive suggestions). These sound like latent meanings. But do we want to manually label and train a model? Search for papers, like using embeddings and pretrained? Similar to sentiments I mean. Technical papers on live streaming chats. See if they have code publiclly available, or just papers where things can be improved technically. 
-  - One thing: work on each message? or work on all messages as one document (I did this with LDA)?
+  - One thing: work on each message? or work on all messages as one document (I did this with LDA)? Document embedding?
   - Maybe just used pre-trained embeddings and train a linear regession?
 - Measure engagement level: The number of times a streamer responds to a chat? The number of times that a streamer asks questions to the viewers? Check on the literature to get more ideas. 
   - Simple measure: The number of times a streamer asks the viewers a question? 
