@@ -4,11 +4,9 @@ This is a currently a public repository. I might change it to private this week.
 - Link to the initial [proposal](https://docs.google.com/document/d/1NeULev_u3fpf7Zrn_sOdR7k33qzWW9lFx29LEjeLb14/edit?usp=sharing)
 - Literature [notion page](https://www.notion.so/pearlyu/Working-on-a-research-question-f4e889d8cad645428feae3a91dd3e873)
 
-<ins>By Oct 8th:<ins> 
+<ins>Week1 - By Oct 8th:<ins> 
 - Sample dataset construction and initial insights: Uploaded 10092022 notebook
 - Archived dataset: [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) This is a really impressive data collection. I'm using this to dig in, looking for patterns. As this site pulls the twitch API every 15 minutes since 2015, I'm thinking emailing the developer to collaborate, as he indicated no scraping please. But this site doesn't scrape viewer engagement (chats). 
-
-<ins>By Oct 10th:<ins>
 - Uploaded 10102020 notebook:
   - Workflow:
     - Go to [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) to select a sample, download the csv.  **Need to talk about sample selection. Currently it's stratified picking by fastest growth in last 30 days.**
@@ -17,7 +15,7 @@ This is a currently a public repository. I might change it to private this week.
     - Use the retreived video url to get chat files using the [chatdownloader](https://github.com/xenova/chat-downloader/tree/master/docs) github project.  **remember to download it locally too.**
     - Examine the returned json chat files, think about what variables to construct. 
 
-<ins>Oct 12th meeting: <ins>
+<ins>Week1 - Oct 12th meeting: <ins>
 - Made the **research questions** more clear: Take perspective of the platform, that cares about incentivizing the streamers to stay and grow on the platform. They’d want more ‘full time’ streamers as the content is delivered live. 
   - Hence we model the streamers’ decisions.
 - Dependent variables:
@@ -29,20 +27,31 @@ This is a currently a public repository. I might change it to private this week.
   - Meta data includes the status of user who comments (if subscriber, VIP, prime subscriber, if streamer..)
   - From the text,  LDA, sentiments, emotions are easy to extract. But it should start with what could be the interesting story. We talked about a few ideas. 
  
-<ins>By Oct 19th: <ins> 
+<ins>Week 2 - By Oct 19th: <ins> 
 - About dependent variable: Plotted average weekly streaming time of 90 randomly selected streamers. Looks binormal.Using 30-hour to classify part-time and full-time sounds like the initial plan. 
 - About features from chat files: Fit topic models on 90 videos, checked on correlation including lag 1 to guide theory building. 
 
-<ins>Oct 20th meeting:<ins>
+<ins>Week 2 - Oct 20th meeting:<ins>
 - Today we thought about **what's the interesting question** again: The idea is that streamers can experience burnout from managing interactions, unique to content creators in live streaming. Too many interactions/engagements with viewers might be too heavy of a workload. This might in a long term impact the streamers' streaming decisions. 
   - We think this question has a larger scope than the previous direction (which is to see if something in the chat impacts the streamers' decisions). 
 
 
 <ins>Action items: <ins>  
 - Download video files and chats. 
+  - Chats all downloaded. Can also add another column of commenter status. 
+  - Video manual download in progress. Large files! Need to think about scaling issues. 
 - Basic chat features: number of messages, number of messages per minute, average message length, proportion of meaninful messages, message sentiments. (Runshan: I remember there are some techniques that allow you to separate texts are more emotional from those more factual (like objective comments, feedback, constructive suggestions), it would be useful to check this as well.)
+  - Done: number of messages, number of messages per minute, average message length,message sentiments (pre-trained, can fine tune later).
+  - Proportion of meaninful message: 
+    - What's meaningful? We want to identify structures, test if dumb things only add on workload and burnout streamers, so some ratio. This is where theory comes from. Search for papers!
+    - Simplest: count the number of messages that have certain keywords. Won't be accurate, but easy. Or, filter out things like yay, hi?
+    - Sounds like classification task (more emotional, more factural, constructive suggestions). These sound like latent meanings. But do we want to manually label and train a model? Search for papers, like using embeddings and pretrained? Similar to sentiments I mean. Technical papers on live streaming chats. See if they have code publiclly available, or just papers where things can be improved technically. 
+  - One thing: work on each message? or work on all messages as one document (I did this with LDA)?
 - Measure engagement level: The number of times a streamer responds to a chat? The number of times that a streamer asks questions to the viewers? Check on the literature to get more ideas. 
+  - Think about this.
 - Explore the relationship between chat features and engagement level.
+
+
  
 ***
 
