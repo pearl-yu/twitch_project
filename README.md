@@ -53,9 +53,14 @@ This is a currently a public repository. I might change it to private this week.
   - Simple measure: The number of times a streamer responds to a chat message?
   - how deep the loop of interaction is?
 - Explore the relationship between chat features and engagement level.
+  - Done: Streamingtime ~ chat messages. I think the roar of the crowd effect is promising. 
 
-
- 
+Literature reading:
+- Communication patterns: interview frame, commentator frame, roar of a crowd frame. 
+  - Roar of a crowed: like a chat waterfall. Good or bad? Create local meaning? Cognitive workload?
+  - Interview frame: this is where conversation happens. 
+  - Commentator frame: The streamer explaining the gameplay. Doesn't respond to chat that much. 
+- Can map the transcript to the chat_df. 
 ***
 
 <ins>Other random things: <ins>
