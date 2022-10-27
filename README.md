@@ -83,3 +83,4 @@ Literature reading:
 - Take a look at json and generator stuff.https://www.programiz.com/python-programming/json
 - Explore the relationship between chat features and engagement level.
 - what's this? http://chatty.github.io/
+- video captioning: https://github.com/Shreyz-max/Video-Captioning
