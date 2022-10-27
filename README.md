@@ -85,3 +85,4 @@ Literature reading:
 - what's this? http://chatty.github.io/
 - video captioning: https://github.com/Shreyz-max/Video-Captioning
 - vidtotext: https://colab.research.google.com/gist/pszemraj/9678129fe0b552e114e3576606446dee/vid2cleantxt-minimal-example.ipynb#scrollTo=_wDj_xxXKapl
+- https://codelabs.developers.google.com/codelabs/cloud-speech-text-python3#0
