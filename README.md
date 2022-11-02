@@ -35,32 +35,62 @@ This is a currently a public repository. I might change it to private this week.
 - Today we thought about **what's the interesting question** again: The idea is that streamers can experience burnout from managing interactions, unique to content creators in live streaming. Too many interactions/engagements with viewers might be too heavy of a workload. This might in a long term impact the streamers' streaming decisions. 
   - We think this question has a larger scope than the previous direction (which is to see if something in the chat impacts the streamers' decisions). 
 
+  
+<ins>Week 3 - By Oct 26th: <ins>   
+- From regressing streaming time on chat features (controlling for streamer and date fixed effect.): #messages_per_minute negative sign. This crudely measures 'the roar of the crowd' (chat intensity), which suggests that if suddenly there appears a waterfall of chat messages, it might increase the streamers' cognitive load. There're other posisble explanations, need to add in more variables and check the results again. positive_sentiment_proportion, positive sign. #messages, positive sign. 
+- From the literature review: One stream studies communication patterns under live streaming: interview frame (where streamers are having conversations with the viewers), commentator frame (where streamers mostly talk about gameplay), 'roar of the crowd' (waterfall of viewer chats, hard to process.) / Other helpful papers: The notion of the sync between video and chat; (Some ideas: One possible thing is that shifting patterns or trying to mix patterns increases the streamers' workload. ) 
+- On quantifying interactions/ streamer engagement: Downloaded the videos and transcribed them. Simple methods to extract interactions don't seem to work. Might need some ML methods to identify, for example, the number of times that a streamer interacts with viewers. Also want to try captioning with timestamps.
+  
+<ins>Week 3 - Oct 27th meeting: <ins>   
+- Continue on technical stuff. 
+- Think about identification. Does the raid thing can work?
+- Research question again (Runshan's summary):
+  > the current research question is how does viewer engagement intensity affect streamer decisions. The hypothesis is that if viewer engagement is too low, the streamer would be discouraged to stream (which is obvious), but if viewer engagement is too high (and disorganized), streamers may feel overwhelmed. They may choose to decrease the interactions (e.g. not respond to questions, not react to comments, etc.), or if they not choose to decrease the interactions, they may get burnout and decrease streaming time or frequency. Either would be bad for the platform. Potential remedy includes to put better structure on viewer engagement (e.g. group chat messages, extract key words, allow votes, etc.)
 
-<ins>Action items: <ins>  
-- Download video files and chats. 
-  - Chats all downloaded. Can also add another column of commenter status. 
-  - Video manual download in progress. Large files! Need to think about scaling issues. 
-- Basic chat features: number of messages, number of messages per minute, average message length, proportion of meaninful messages, message sentiments. (Runshan: I remember there are some techniques that allow you to separate texts are more emotional from those more factual (like objective comments, feedback, constructive suggestions), it would be useful to check this as well.)
-  - Done: number of messages, number of messages per minute, average message length,message sentiments (pre-trained, can fine tune later).
-  - Proportion of meaninful message: 
-    - What's meaningful? We want to identify structures, test if dumb things only add on workload and burnout streamers, so some ratio. This is where theory comes from. Search for papers!
-    - Simplest: count the number of messages that have certain keywords. Won't be accurate, but easy. Or, filter out things like yay, hi?
-    - Sounds like classification task (more emotional, more factural, constructive suggestions). These sound like latent meanings. But do we want to manually label and train a model? Search for papers, like using embeddings and pretrained? Similar to sentiments I mean. Technical papers on live streaming chats. See if they have code publiclly available, or just papers where things can be improved technically. 
-  - One thing: work on each message? or work on all messages as one document (I did this with LDA)? Document embedding?
-  - Maybe just used pre-trained embeddings and train a linear regession?
-- Measure engagement level: The number of times a streamer responds to a chat? The number of times that a streamer asks questions to the viewers? Check on the literature to get more ideas. 
+  > The more general idea is that streamer-viewer interaction is the key to live-streaming and what differentiate it from VOD. Previous literature has focused on how to increase viewer engagement, and we can study what affect streamer decisions, because interaction is by definition two-way. 
+  
+<ins>Action itmes <ins>     
+- Add in another measure of #messages_per_minute. Add in quadratic terms. 
+- Apply ML to identify interactions and interaction types. Try captioning with timestamps. Don't overcomplicate this tho. 
+- Add the streamer responses as a dependent variable too. (chat features -> streamer responses -> burnout?)
+- Think about modeling components too.
+  
+<ins>Week 4 - By Oct 26th: <ins>   
+- Added in another measure of #messages_per_minute. Add in quadratic terms. 
+- Identify responses: in the work. Here's the workflow:
+  - automatic transcription (speech-to-text, open AI API.) (Talked to Joao, there is a way to identify usernames, but looking for out-of-the-box solutions.)
+  - Manual label a few. 
+  - Finetune maybe a RobertaBert model (hugging face is helpful. I think I'm gonna switch to that. The only downside, but helps everything later, is to figure out the I/O, also procedures. They have tutorisl. https://huggingface.co/course/chapter1/4?fw=pt) 
+- Furether identify chat labels: in the work. need to get familiar with the conversational act stuff. 
+- Identification strategies: I read the Raluca suprise and suspense paper. Severals confusing things. 
+- Counterfactural studies: 
+    
+<ins>Dataset construction progress (keep updating) <ins>    
+The focus was basic chat features, and measurement of engagment between streamer and viewer.   
+Measure engagement level: The number of times a streamer responds to a chat? The number of times that a streamer asks questions to the viewers? Check on the literature to get more ideas. (working on this. I think simplest is to get transcripts and fine tune a model. )
   - Simple measure: The number of times a streamer asks the viewers a question? 
   - Simple measure: The number of times a streamer responds to a chat message?
   - how deep the loop of interaction is?
-- Explore the relationship between chat features and engagement level.
-  - Done: Streamingtime ~ chat messages. I think the roar of the crowd effect is promising. 
+  
+Videos and chats:
+- Collected sample: 100 videos. downloaded 30 videos. downloaded all chats. (Have the script.)
+- Action items:
+  - Think about the random sampling again, what data variation we need to have. The script is ready, but need to store and scale. 
 
-Literature reading:
-- Communication patterns: interview frame, commentator frame, roar of a crowd frame. 
-  - Roar of a crowed: like a chat waterfall. Good or bad? Create local meaning? Cognitive workload?
-  - Interview frame: this is where conversation happens. 
-  - Commentator frame: The streamer explaining the gameplay. Doesn't respond to chat that much. 
-- Can map the transcript to the chat_df. 
+Chat features:
+- Done: number of messages, number of messages per minute (intensity measure), aaverage number of messages per minute, average message length,message sentiments (pre-trained, can fine tune later).
+- Action items: 
+  - Portion of meaningful messages. 
+    - What's meaningful? We want to identify structures, test if dumb things only add on workload and burnout streamers, so some ratio. This is where theory comes from. Search for papers!
+    - Simplest: count the number of messages that have certain keywords. Won't be accurate, but easy. Or, filter out things like yay, hi?
+  - Can use conversational act algos to get labels automatically: emotion/ statement/ question
+  - If that is responded by the streamer. -> proortion of chats that got responses. 
+  
+Video features:
+- Done: transcript.
+- Action items: 
+  - label the transcript, use bert to classify if that sentence is a response. 
+  
 ***
 
 <ins>Other random things: <ins>
