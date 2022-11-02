@@ -46,7 +46,6 @@ This is a currently a public repository. I might change it to private this week.
 - Think about identification. Does the raid thing can work?
 - Research question again (Runshan's summary):
   > the current research question is how does viewer engagement intensity affect streamer decisions. The hypothesis is that if viewer engagement is too low, the streamer would be discouraged to stream (which is obvious), but if viewer engagement is too high (and disorganized), streamers may feel overwhelmed. They may choose to decrease the interactions (e.g. not respond to questions, not react to comments, etc.), or if they not choose to decrease the interactions, they may get burnout and decrease streaming time or frequency. Either would be bad for the platform. Potential remedy includes to put better structure on viewer engagement (e.g. group chat messages, extract key words, allow votes, etc.)
-
   > The more general idea is that streamer-viewer interaction is the key to live-streaming and what differentiate it from VOD. Previous literature has focused on how to increase viewer engagement, and we can study what affect streamer decisions, because interaction is by definition two-way. 
   
 <ins>Action itmes <ins>     
