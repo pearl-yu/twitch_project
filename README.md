@@ -62,7 +62,8 @@ This is a currently a public repository. I might change it to private this week.
   - Finetune maybe a RobertaBert model (hugging face is helpful. I think I'm gonna switch to that. The only downside, but helps everything later, is to figure out the I/O, also procedures. They have tutorisl. https://huggingface.co/course/chapter1/4?fw=pt) 
 - Furether identify chat labels: in the work. need to get familiar with the conversational act stuff. 
 - Identification strategies: I read the Raluca suprise and suspense paper. Severals confusing things. 
-  - raid: https://streamscharts.com/tools/raid-finder
+  - Viewers usually see something the streamer is doing, then send chats. Reversed causality. 
+  - raid: [how raid works](https://help.twitch.tv/s/article/how-to-use-raids?language=en_US) [helpful tool](https://streamscharts.com/tools/raid-finder) 
 - Counterfactural studies: 
     
 <ins>Dataset construction progress (keep updating) <ins>    
