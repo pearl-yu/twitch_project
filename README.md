@@ -70,7 +70,8 @@ This is a currently a public repository. I might change it to private this week.
 - Organize raid data, check on similarities between viewers of raided vids, length etc. 
     
 <ins>Dataset construction progress (keep updating) <ins>    
-The focus was basic chat features, and measurement of engagment between streamer and viewer.   
+  
+The focus was basic chat features, and measurement of engagment between streamer and viewer.    
 Measure engagement level: The number of times a streamer responds to a chat? The number of times that a streamer asks questions to the viewers? Check on the literature to get more ideas. (working on this. I think simplest is to get transcripts and fine tune a model. )
   - Simple measure: The number of times a streamer asks the viewers a question? 
   - Simple measure: The number of times a streamer responds to a chat message?
