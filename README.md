@@ -48,13 +48,7 @@ This is a currently a public repository. I might change it to private this week.
   > the current research question is how does viewer engagement intensity affect streamer decisions. The hypothesis is that if viewer engagement is too low, the streamer would be discouraged to stream (which is obvious), but if viewer engagement is too high (and disorganized), streamers may feel overwhelmed. They may choose to decrease the interactions (e.g. not respond to questions, not react to comments, etc.), or if they not choose to decrease the interactions, they may get burnout and decrease streaming time or frequency. Either would be bad for the platform. Potential remedy includes to put better structure on viewer engagement (e.g. group chat messages, extract key words, allow votes, etc.)
   > The more general idea is that streamer-viewer interaction is the key to live-streaming and what differentiate it from VOD. Previous literature has focused on how to increase viewer engagement, and we can study what affect streamer decisions, because interaction is by definition two-way. 
   
-<ins>Action itmes <ins>     
-- Add in another measure of #messages_per_minute. Add in quadratic terms. 
-- Apply ML to identify interactions and interaction types. Try captioning with timestamps. Don't overcomplicate this tho. 
-- Add the streamer responses as a dependent variable too. (chat features -> streamer responses -> burnout?)
-- Think about modeling components too.
-  
-<ins>Week 4 - By Oct 26th: <ins>   
+<ins>Week 4 - By Nov 1st: <ins>   
 - Added in another measure of #messages_per_minute. Add in quadratic terms. 
 - Identify responses: in the work. Here's the workflow:
   - automatic transcription (speech-to-text, open AI API.) (Talked to Joao, there is a way to identify usernames, but looking for out-of-the-box solutions.)
@@ -64,7 +58,16 @@ This is a currently a public repository. I might change it to private this week.
 - Identification strategies: I read the Raluca suprise and suspense paper. Severals confusing things. 
   - Viewers usually see something the streamer is doing, then send chats. Reversed causality. 
   - raid: [how raid works](https://help.twitch.tv/s/article/how-to-use-raids?language=en_US) [helpful tool](https://streamscharts.com/tools/raid-finder) 
-- Counterfactural studies: 
+
+<ins>Week 4 - Nov 3rd meeting: <ins>   
+- Raid could be conditional random, random within a range. (There gotta be randomness, but need to tease it out.) Like the big streamer might be choosing from a group of othere streamers to raid. Are these streamers similar? Check on that.
+- The idea is to find something that causes an increase in viewership, then number of messages for example. 
+- Reverse causality might be taken care of by raids. Any confounders?
+
+<ins>Action itmes <ins>     
+- Apply ML to identify interactions and interaction types. Try captioning with timestamps. Don't overcomplicate this tho. Continue on these.
+- Add the streamer responses as a dependent variable too. (chat features -> streamer responses -> burnout?)
+- Organize raid data, check on similarities between viewers of raided vids, length etc. 
     
 <ins>Dataset construction progress (keep updating) <ins>    
 The focus was basic chat features, and measurement of engagment between streamer and viewer.   
