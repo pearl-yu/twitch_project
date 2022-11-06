@@ -68,6 +68,11 @@ This is a currently a public repository. I might change it to private this week.
 - Apply ML to identify interactions and interaction types. Try captioning with timestamps. Don't overcomplicate this tho. Continue on these.
 - Add the streamer responses as a dependent variable too. (chat features -> streamer responses -> burnout?)
 - Organize raid data, check on similarities between viewers of raided vids, length etc. 
+  
+<ins>Week 5  <ins>   
+- Raid: 
+  - potential data source: https://streamscharts.com/tools/raid-finder  (need manual download. but they have historical data. API would need repeated scraping from current time.)
+  - 
     
 <ins>Dataset construction progress (keep updating) <ins>    
   
