@@ -71,13 +71,8 @@ This is a currently a public repository. I might change it to private this week.
   
 <ins>Week 5  <ins>   
 - Raid:
-  - How raid works: 
-  - potential data source: https://streamscharts.com/tools/raid-finder  (need manual download. but they have historical data. API would need repeated scraping from current time.)
-  - Identification: 
-    - The problem: Now for example, chat and interaction features are endogenous. I believe there is reverse causality. (Viewers change their chat intensity responding to streamer actions too.)Not sure if there're confounders. 
-    - I understand the idea that we need something exogenously increases viewership. I'm not so clear how to incorporate that into a model. 
-    - There should be some randomness when a streamer chooses who to raid. 
-    - Constructing a dataset for now.
+  - Video level correlation doesn't look good. I think the sample is too small. We need more videos got raided big. 
+  - Now are they exogenous? 
   
     
 <ins>Dataset construction progress (keep updating) <ins>    
