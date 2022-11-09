@@ -69,13 +69,14 @@ This is a currently a public repository. I might change it to private this week.
   - Eyeballing the viewership pattern: 
     - A bump of viewership by a large raid, but most people leave after a while. Many small raids don't matter a lot. 
     - I can't see the real-time chat stats, but just the viewership on the website interface. 
-    - It's my guess that we'll need to find large raid that might impact chat intensity. 
+    - It's my guess that we'll need to **find large raid that might impact chat intensity.**
   - Collected raids data for the sample dataset. 
     - If exogenous: 
       - Checking on the incoming raids, if it's reapeated from someone (ruling out raiding streamers systematically choosing whom to raid, trying to form bond etc).
       - They usually raid smaller streamers playing the same game live when my own stream ends. Or look for advice from the audience. Somep people check if the other streamer is engaging the viewers, so maybe there is some selection that they generally choose streamers who engage with the audience. I don't think this hurts our study that much tho. 
   - Constructed number of total raiders into the dataset.
-    - Video level correlation doesn't look good. Maybe I should run regressions too, but what regression? 
+    - Video level correlation doesn't look good when excluding large raids. **But maybe we should just look at large raids?**
+    - **Maybe I should run regressions too, but what regression?** 
     - I think the sample is too small. We need more videos got raided big. Maybe I should collect some of that dataset. 
 - Interaction types: 
   - Get back on it tonight. Should be fun. 
