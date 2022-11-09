@@ -63,18 +63,25 @@ This is a currently a public repository. I might change it to private this week.
 - Raid could be conditional random, random within a range. (There gotta be randomness, but need to tease it out.) Like the big streamer might be choosing from a group of othere streamers to raid. Are these streamers similar? Check on that.
 - The idea is to find something that causes an increase in viewership, then number of messages for example. 
 - Reverse causality might be taken care of by raids. Any confounders?
-
-<ins>Action itmes <ins>     
-- Apply ML to identify interactions and interaction types. Try captioning with timestamps. Don't overcomplicate this tho. Continue on these.
-- Add the streamer responses as a dependent variable too. (chat features -> streamer responses -> burnout?)
-- Organize raid data, check on similarities between viewers of raided vids, length etc. 
   
 <ins>Week 5  <ins>   
 - Raid:
-  - Video level correlation doesn't look good. I think the sample is too small. We need more videos got raided big. 
-  - Now are they exogenous? 
+  - Eyeballing the viewership pattern: 
+    - A bump of viewership by a large raid, but most people leave after a while. Many small raids don't matter a lot. 
+    - I can't see the real-time chat stats, but just the viewership on the website interface. 
+    - It's my guess that we'll need to find large raid that might impact chat intensity. 
+  - Collected raids data for the sample dataset. 
+    - If exogenous: 
+      - Checking on the incoming raids, if it's reapeated from someone (ruling out raiding streamers systematically choosing whom to raid, trying to form bond etc).
+      - They usually raid smaller streamers playing the same game live when my own stream ends. Or look for advice from the audience. Somep people check if the other streamer is engaging the viewers, so maybe there is some selection that they generally choose streamers who engage with the audience. I don't think this hurts our study that much tho. 
+  - Constructed number of total raiders into the dataset.
+    - Video level correlation doesn't look good. Maybe I should run regressions too, but what regression? 
+    - I think the sample is too small. We need more videos got raided big. Maybe I should collect some of that dataset. 
+- Interaction types: 
+  - Get back on it tonight. Should be fun. 
+  - To do: Add the streamer responses as a dependent variable too. (chat features -> streamer responses -> burnout?)  
+  - To do: Apply ML to identify interactions and interaction types. Try captioning with timestamps. Don't overcomplicate this tho. Continue on these.
   
-    
 <ins>Dataset construction progress (keep updating) <ins>    
   
 The focus was basic chat features, and measurement of engagment between streamer and viewer.    
@@ -105,6 +112,7 @@ Video features:
 ***
 
 <ins>Other random things: <ins>
+- Organize raid data, check on similarities between viewers of raided vids, length etc. 
 - Sample selection? How to select the sample? (Currently it's stratified picking by fastest growth in last 30 days. Restricted to English steams. Can we use shorter streams only? Should it be stratified by dependent variables?)
 - Dependent variables: 
   - Game category: I think we can download from https://sullygnome.com/channel/kaicenat/365/streams, and integrate it in once we know what sample. Cuz this would be manually done. 
