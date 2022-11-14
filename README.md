@@ -102,7 +102,8 @@ Still studying identification with twitch raids:
 <ins>Week 6 <ins>   <a name="week6"></a>
 - More sampling points: 
   - Initial idea: Use the [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) to select a sample of streamers, and check on [raid finder](https://streamscharts.com/tools/raid-finder) 
-  - Problem: Still, how to select a 'random sample'? Let me google this. / Also, is it ok to focus on some variable?
+  - Problem: Still, how to select a 'random sample'? Let me google this. / Also, is it ok to focus on some variable 
+  -
   
 <ins>Dataset construction progress (keep updating) <ins>    <a name="data"></a>
   
