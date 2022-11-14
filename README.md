@@ -4,7 +4,15 @@ This is a currently a public repository. I might change it to private this week.
 - Link to the initial [proposal](https://docs.google.com/document/d/1NeULev_u3fpf7Zrn_sOdR7k33qzWW9lFx29LEjeLb14/edit?usp=sharing)
 - Literature [notion page](https://www.notion.so/pearlyu/Working-on-a-research-question-f4e889d8cad645428feae3a91dd3e873)
 
-<ins>Week1 <ins> 
+[Week 1](#week1)
+[Week 2](#week2)
+[Week 3](#week3)
+[Week 4](#week4)
+[Week 5](#week5)
+[Week 6](#week6)
+
+
+<ins>Week1 <ins> <a name="week1"></a>
 - Sample dataset construction and initial insights: Uploaded 10092022 notebook
 - Archived dataset: [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) This is a really impressive data collection. I'm using this to dig in, looking for patterns. As this site pulls the twitch API every 15 minutes since 2015, I'm thinking emailing the developer to collaborate, as he indicated no scraping please. But this site doesn't scrape viewer engagement (chats). 
 - Uploaded 10102020 notebook:
@@ -27,7 +35,7 @@ This is a currently a public repository. I might change it to private this week.
   - Meta data includes the status of user who comments (if subscriber, VIP, prime subscriber, if streamer..)
   - From the text,  LDA, sentiments, emotions are easy to extract. But it should start with what could be the interesting story. We talked about a few ideas. 
  
-<ins>Week 2 <ins> 
+<ins>Week 2 <ins> <a name="week2"></a>
 - About dependent variable: Plotted average weekly streaming time of 90 randomly selected streamers. Looks binormal.Using 30-hour to classify part-time and full-time sounds like the initial plan. 
 - About features from chat files: Fit topic models on 90 videos, checked on correlation including lag 1 to guide theory building. 
 
@@ -36,7 +44,7 @@ This is a currently a public repository. I might change it to private this week.
   - We think this question has a larger scope than the previous direction (which is to see if something in the chat impacts the streamers' decisions). 
 
   
-<ins>Week 3 <ins>   
+<ins>Week 3 <ins>   <a name="week3"></a>
 - From regressing streaming time on chat features (controlling for streamer and date fixed effect.): #messages_per_minute negative sign. This crudely measures 'the roar of the crowd' (chat intensity), which suggests that if suddenly there appears a waterfall of chat messages, it might increase the streamers' cognitive load. There're other posisble explanations, need to add in more variables and check the results again. positive_sentiment_proportion, positive sign. #messages, positive sign. 
 - From the literature review: One stream studies communication patterns under live streaming: interview frame (where streamers are having conversations with the viewers), commentator frame (where streamers mostly talk about gameplay), 'roar of the crowd' (waterfall of viewer chats, hard to process.) / Other helpful papers: The notion of the sync between video and chat; (Some ideas: One possible thing is that shifting patterns or trying to mix patterns increases the streamers' workload. ) 
 - On quantifying interactions/ streamer engagement: Downloaded the videos and transcribed them. Simple methods to extract interactions don't seem to work. Might need some ML methods to identify, for example, the number of times that a streamer interacts with viewers. Also want to try captioning with timestamps.
@@ -48,7 +56,7 @@ This is a currently a public repository. I might change it to private this week.
   > the current research question is how does viewer engagement intensity affect streamer decisions. The hypothesis is that if viewer engagement is too low, the streamer would be discouraged to stream (which is obvious), but if viewer engagement is too high (and disorganized), streamers may feel overwhelmed. They may choose to decrease the interactions (e.g. not respond to questions, not react to comments, etc.), or if they not choose to decrease the interactions, they may get burnout and decrease streaming time or frequency. Either would be bad for the platform. Potential remedy includes to put better structure on viewer engagement (e.g. group chat messages, extract key words, allow votes, etc.)
   > The more general idea is that streamer-viewer interaction is the key to live-streaming and what differentiate it from VOD. Previous literature has focused on how to increase viewer engagement, and we can study what affect streamer decisions, because interaction is by definition two-way. 
   
-<ins>Week 4 <ins>   
+<ins>Week 4 <ins>   <a name="week4"></a>
 - Added in another measure of #messages_per_minute. Add in quadratic terms. 
 - Identify responses: in the work. Here's the workflow:
   - automatic transcription (speech-to-text, open AI API.) (Talked to Joao, there is a way to identify usernames, but looking for out-of-the-box solutions.)
@@ -64,7 +72,7 @@ This is a currently a public repository. I might change it to private this week.
 - The idea is to find something that causes an increase in viewership, then number of messages for example. 
 - Reverse causality might be taken care of by raids. Any confounders?
   
-<ins>Week 5  <ins>   
+<ins>Week 5  <ins>   <a name="week5"></a>
 - Raid:
   - Eyeballing the viewership pattern: 
     - A bump of viewership by a large raid, but most people leave after a while. Many small raids don't matter a lot. 
@@ -86,7 +94,7 @@ This is a currently a public repository. I might change it to private this week.
 <ins>Week 5 - Nov 10th Meeting <ins> 
 - Not enough variation/correlation. Need more data points.
 
-<ins>Week 6 <ins>   
+<ins>Week 6 <ins>   <a name="week6"></a>
 - More sampling points:
   
 <ins>Dataset construction progress (keep updating) <ins>    
