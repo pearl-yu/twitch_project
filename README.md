@@ -95,10 +95,14 @@ This is a currently a public repository. I might change it to private this week.
   - To do: Apply ML to identify interactions and interaction types. Try captioning with timestamps. Don't overcomplicate this tho. Continue on these.
 
 <ins>Week 5 - Nov 10th Meeting <ins> 
-- Not enough variation/correlation. Need more data points.
+Still studying identification with twitch raids:
+- The number of raiders directly increases viewership, and seems to be positively correlated with chat intensity. But regression of [chat_intensity ~. #raiders] is not significant even without including other controls. We think this is because the sample is not enough to have many live streams with a large number of raiders (A large percentage never got raided), hence little variation. 
+- Basically not enough variation n correlation. Need more data points that got raided big. 
 
 <ins>Week 6 <ins>   <a name="week6"></a>
-- More sampling points:
+- More sampling points: 
+  - Initial idea: Use the [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) to select a sample of streamers, and check on [raid finder](https://streamscharts.com/tools/raid-finder) 
+  - Problem: Still, how to select a 'random sample'? Let me google this. / Also, is it ok to focus on some variable?
   
 <ins>Dataset construction progress (keep updating) <ins>    <a name="data"></a>
   
