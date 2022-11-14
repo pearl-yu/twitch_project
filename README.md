@@ -11,6 +11,8 @@ This is a currently a public repository. I might change it to private this week.
 [Week 5](#week5)
 [Week 6](#week6)
 
+[Data Construction](#data) [Other Random Thoughts](#random)
+
 
 <ins>Week1 <ins> <a name="week1"></a>
 - Sample dataset construction and initial insights: Uploaded 10092022 notebook
@@ -97,7 +99,7 @@ This is a currently a public repository. I might change it to private this week.
 <ins>Week 6 <ins>   <a name="week6"></a>
 - More sampling points:
   
-<ins>Dataset construction progress (keep updating) <ins>    
+<ins>Dataset construction progress (keep updating) <ins>    <a name="data"></a>
   
 The focus was basic chat features, and measurement of engagment between streamer and viewer.    
 Measure engagement level: The number of times a streamer responds to a chat? The number of times that a streamer asks questions to the viewers? Check on the literature to get more ideas. (working on this. I think simplest is to get transcripts and fine tune a model. )
@@ -126,7 +128,7 @@ Video features:
   
 ***
 
-<ins>Other random things: <ins>
+<ins>Other random things: <ins> <a name="random"></a>
 - Organize raid data, check on similarities between viewers of raided vids, length etc. 
 - Sample selection? How to select the sample? (Currently it's stratified picking by fastest growth in last 30 days. Restricted to English steams. Can we use shorter streams only? Should it be stratified by dependent variables?)
 - Dependent variables: 
