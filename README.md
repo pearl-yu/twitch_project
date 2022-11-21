@@ -103,7 +103,7 @@ Still studying identification with twitch raids:
 - More sampling points: 
   - Initial idea: Use the [TwitchTracker](https://sullygnome.com/channels/30/followergrowth) to select a sample of streamers, and check on [raid finder](https://streamscharts.com/tools/raid-finder) 
   - Problem: Still, how to select a 'random sample'? Let me google this. / Also, is it ok to focus on some variable 
-  -
+  - Think about identification and the model.
   
 <ins>Dataset construction progress (keep updating) <ins>    <a name="data"></a>
   
