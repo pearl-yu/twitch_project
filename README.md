@@ -18,11 +18,11 @@ This is a currently a public repository. I might change it to private this week.
 <ins>Dec 7th <ins>   <a name="dec7"></a>
 - Writing: Literature review
 - Modeling: 
- - basic structure in mind.
- - Find papers with continuous dependent variable and figure out the procedures.
+  - basic structure in mind.
+  - Find papers with continuous dependent variable and figure out the procedures.
 - Analysis:
- - Engagement variables
- - Use IV.
+  - Engagement variables
+  - Use IV.
 
 <ins>Week 6 <ins>   <a name="week6"></a>
 - More sampling points: 
