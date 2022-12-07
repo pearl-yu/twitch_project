@@ -11,10 +11,18 @@ This is a currently a public repository. I might change it to private this week.
 [Week 4](#week4)
 [Week 5](#week5)
 [Week 6](#week6)
+[Dec 7th](#dec7)
 
 [Data Construction](#data) [Other Random Thoughts](#random)
 
-
+<ins>Dec 7th <ins>   <a name="dec7"></a>
+- Writing: Literature review
+- Modeling: 
+ - basic structure in mind.
+ - Find papers with continuous dependent variable and figure out the procedures.
+- Analysis:
+ - Engagement variables
+ - Use IV.
 
 <ins>Week 6 <ins>   <a name="week6"></a>
 - More sampling points: 
