@@ -4,6 +4,11 @@ This is a currently a public repository. I might change it to private this week.
 - Link to the initial [proposal](https://docs.google.com/document/d/1NeULev_u3fpf7Zrn_sOdR7k33qzWW9lFx29LEjeLb14/edit?usp=sharing)
 - Literature [notion page](https://www.notion.so/pearlyu/Working-on-a-research-question-f4e889d8cad645428feae3a91dd3e873)
  
+Collecting the api meta data: data_collection
+Merge in other variables: independent_varaible_exploration
+Processing raid data and merge: raid_data
+processing videos and transcripts: vidtotex
+ 
 ***  
 [Week 1](#week1)
 [Week 2](#week2)
