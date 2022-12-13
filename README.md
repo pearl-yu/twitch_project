@@ -17,8 +17,20 @@ processing videos and transcripts: vidtotex
 [Week 5](#week5)
 [Week 6](#week6)
 [Dec 7th](#dec7)
+[Dec 14th](#dec14)
 
 [Data Construction](#data) [Other Random Thoughts](#random)
+
+<ins>Dec 14th <ins>   <a name="dec14"></a>
+When videos are invovled, there would be quite some technical work:
+- It's not possible to transcribe the videos without downloading them. 
+  - So we gotta find a way to download the vids faster. The GUI doesn't work the best. So I think we need to find a script and run it parrallelly.
+- Having the video files, which are large on a harddrive, next step is to trascibe. 
+  - It takes 6m to convert an 1-hour video to audio. 
+  - Accuracy: Simple wav2text model gives out gibberish word. 
+  - Need to find a way to extract audios faster, and also something to correct for gibberish word. (Google caption service charges a fee. The Facebook wav2vec doesn't. We may need finetuning in the future, but not now.)
+- With the transcript, we need to construct an 'interaction variable'. 
+  - There could be gaming background voice. 
 
 <ins>Dec 7th <ins>   <a name="dec7"></a>
 - Writing: Literature review
