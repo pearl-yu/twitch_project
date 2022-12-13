@@ -31,19 +31,19 @@ When videos are invovled, there would be quite some technical work:
   - Need to find a way to extract audios faster, and also something to correct for gibberish word. (Google caption service charges a fee. The Facebook wav2vec doesn't. We may need finetuning in the future, but not now.)
 - With the transcript, we need to construct an 'interaction variable'. 
   - There could be gaming background voice. 
+ 
+ Task of this week 1 (priority): It's slow. Try to parallel the process, ask Joao for some help.   
+ Task of this week 2: The specification of the second and third term could be improved. Look up content creators literature, empirical/modeling/analytical models. 
+ Task of this week 3: Write things up. I've got the doc here, but after the meeting, I plan to further clarify the story we want to tell, simple literature review, model-free evidence, and the modeling part, write up the likelihood, data parts too. Will share the doc again next Monday.    
+ Task of this week 4: Try to code up a toy model, get intuition of how it's done.    
 
 <ins>Dec 7th <ins>   <a name="dec7"></a>
 - Variable construction with ML: 
-   Compiled the code to download and transcribe videos - to get the streamer response variable. Maybe enough to try estimation. 
-   Task of this week 1 (priority): It's slow. Try to parallel the process, ask Joao for some help.
-
+   - Compiled the code to download and transcribe videos - to get the streamer response variable. Maybe enough to try estimation. 
 - Modeling: 
-   Further understanding of the modeling components, and the estimation procedures with the continuous decision variable.  
-   U_interaction = \beta Chat_intensity + the benefit from responding + the cost of responding. 
-   Single-agent dynamic model, with a HMM. (The story makes sense with latent mental states. ) (Will share the list of references/helpful modeling papers with the writeup as in task 3 below. )
-   Task of this week 2: The specification of the second and third term could be improved. Look up content creators literature, empirical/modeling/analytical models. 
-   Task of this week 3: Write things up. I've got the doc here, but after the meeting, I plan to further clarify the story we want to tell, simple literature review, model-free evidence, and the modeling part, write up the likelihood, data parts too. Will share the doc again next Monday. 
-   Task of this week 4: Try to code up a toy model, get intuition of how it's done. 
+  - Further understanding of the modeling components, and the estimation procedures with the continuous decision variable.  
+  - U_interaction = \beta Chat_intensity + the benefit from responding + the cost of responding. 
+  - Single-agent dynamic model, with a HMM. (The story makes sense with latent mental states. ) (Will share the list of references/helpful modeling papers with the writeup as in task 3 below. )
 
 <ins>Week 6 <ins>   <a name="week6"></a>
 - More sampling points: 
