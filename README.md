@@ -31,6 +31,8 @@ When videos are invovled, there would be quite some technical work:
   - Need to find a way to extract audios faster, and also something to correct for gibberish word. (Google caption service charges a fee. The Facebook wav2vec doesn't. We may need finetuning in the future, but not now.)
 - With the transcript, we need to construct an 'interaction variable'. 
   - There could be gaming background voice. 
+  - How do we define interaction, or interaction levels? Is there any literature that classify it?
+  - Attend to viewer chats./ Attend to the game itself. 
  
  Task of this week 1 (priority): It's slow. Try to parallel the process, ask Joao for some help.   
  Task of this week 2: The specification of the second and third term could be improved. Look up content creators literature, empirical/modeling/analytical models. 
