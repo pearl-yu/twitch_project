@@ -31,12 +31,14 @@ Done this week:
  - Downloading sample audios.(Want to write a better script for future 60thou downloads).
  - Tried to manually label interaction from audio files to get intuition. Re-read the two papers discussing interaction patterns. 
    Q in meeting: Complicated ones - complicated. Simple measure? 
+   respond to chat. 
+   dialogue.
+   stricter.(seeking / respond /obviously not interacting.) Threshold.
 
 Tasks:
 - Task of Thursday: Write up. (literature part, data part, especially modeling part). Need to read the papers with HMM. 
 - Task 1: Getting that intereaction variable. Mostly deal with the engineering stuff this week. 
-- Task 2: Iteratively, code up the estimation, with the simple streaming time measure? 
- 
+- Task 2: Simulation.
 
 <ins>Dec 14th <ins>   <a name="dec14"></a>
 When videos are invovled, there would be quite some technical work:
