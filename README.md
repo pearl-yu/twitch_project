@@ -26,7 +26,7 @@ model: modeling
 
 [Data Construction](#data) [Other Random Thoughts](#random)
 
-<ins>Dec 15th meeting<ins>   <a name="dec15"></a>
+<ins>Dec 15th meeting<ins>   <a name="dec15"></a>.   
 Done this week: 
  - Downloading sample audios.(Want to write a better script for future 60thou downloads).
  - Tried to manually label interaction from audio files to get intuition. Re-read the two papers discussing interaction patterns. 
