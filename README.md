@@ -3,6 +3,7 @@
 This is a currently a public repository. I might change it to private this week. I could add your accounts as collaborators, or think of other ways to share these (maybe a link to the notebook on my drive/ pdf). 
 - Link to the initial [proposal](https://docs.google.com/document/d/1NeULev_u3fpf7Zrn_sOdR7k33qzWW9lFx29LEjeLb14/edit?usp=sharing)
 - Literature [notion page](https://www.notion.so/pearlyu/Working-on-a-research-question-f4e889d8cad645428feae3a91dd3e873)
+- Writeup [overleaf](https://www.overleaf.com/project/632876ce63765e6f8f6fcff5)
  
 Collecting the api meta data: data_collection
 Merge in other variables: independent_varaible_exploration
