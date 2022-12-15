@@ -6,9 +6,12 @@ This is a currently a public repository. I might change it to private this week.
 - Writeup [overleaf](https://www.overleaf.com/project/632876ce63765e6f8f6fcff5)
  
 Collecting the api meta data: data_collection
-Merge in other variables: independent_varaible_exploration
-Processing raid data and merge: raid_data
-processing videos and transcripts: vidtotex
+Merge in other variables: independent_varaible_exploration 
+Processing raid data and merge: raid_data 
+processing videos and transcripts: vidtot_processing  streamer_action
+interaction: interaction_variable
+model: modeling
+
  
 ***  
 [Week 1](#week1)
